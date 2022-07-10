@@ -25,8 +25,8 @@ public class fourBalls extends PApplet {
         drawCircle(4);
     }
 
-    private void drawCircle(int multipler) {
-        ellipse(x * multipler, (HEIGHT / 5) * multipler, RADIUS, RADIUS);
+    private void drawCircle(int multiplier) {
+        ellipse(x * multiplier, HEIGHT / 5 * multiplier, RADIUS, RADIUS);
         x++;
     }
 
