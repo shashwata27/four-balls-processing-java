@@ -11,7 +11,7 @@ public class balls {
         this.ballPosition.increaseXPostion(this.ballSpeed);
     }
 
-    public int returnBallPostion(){
+    public int getBallPostion(){
         return this.ballPosition.getXPostion();
     }
 

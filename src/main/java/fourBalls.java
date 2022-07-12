@@ -45,7 +45,7 @@ public class fourBalls extends PApplet {
     }
 
     private void drawCircle(balls ball) {
-        ellipse( ball.returnBallPostion(), HEIGHT / 5 * ball.getBallSpeed(), RADIUS, RADIUS);
+        ellipse( ball.getBallPostion(), HEIGHT / 5 * ball.getBallSpeed(), RADIUS, RADIUS);
     }
 
 }
