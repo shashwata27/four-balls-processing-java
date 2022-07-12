@@ -1,8 +1,12 @@
 public class xPostions {
-    int x=0;
+    public int x;
 
-    public void increaseXPostion(){
-        this.x+=1;
+    public xPostions(int x){
+        this.x=x;
+    }
+
+    public void increaseXPostion(int increment){
+        this.x+=increment;
         System.out.println(this.x);
     }
 
